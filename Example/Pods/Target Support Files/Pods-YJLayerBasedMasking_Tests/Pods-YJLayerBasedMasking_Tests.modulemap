@@ -1,0 +1,6 @@
+framework module Pods_YJLayerBasedMasking_Tests {
+  umbrella header "Pods-YJLayerBasedMasking_Tests-umbrella.h"
+
+  export *
+  module * { export * }
+}

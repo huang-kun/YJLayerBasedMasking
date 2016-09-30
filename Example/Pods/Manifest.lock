@@ -1,0 +1,16 @@
+PODS:
+  - YJLayerBasedMasking (0.1.0)
+
+DEPENDENCIES:
+  - YJLayerBasedMasking (from `../`)
+
+EXTERNAL SOURCES:
+  YJLayerBasedMasking:
+    :path: ../
+
+SPEC CHECKSUMS:
+  YJLayerBasedMasking: 78572f21bb6d32ccb16d599923f0cfdc338f3f52
+
+PODFILE CHECKSUM: 8fab445352bf964ab6f6447aa3892fddf33c271e
+
+COCOAPODS: 1.0.1

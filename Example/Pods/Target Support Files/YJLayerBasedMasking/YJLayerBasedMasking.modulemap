@@ -1,0 +1,6 @@
+framework module YJLayerBasedMasking {
+  umbrella header "YJLayerBasedMasking-umbrella.h"
+
+  export *
+  module * { export * }
+}
