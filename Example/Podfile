@@ -1,0 +1,11 @@
+use_frameworks!
+
+target 'YJLayerBasedMasking_Example' do
+  pod 'YJLayerBasedMasking', :path => '../'
+
+  target 'YJLayerBasedMasking_Tests' do
+    inherit! :search_paths
+
+    
+  end
+end
