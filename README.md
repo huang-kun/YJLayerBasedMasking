@@ -7,7 +7,16 @@
 
 ## Why layer based masking ?
 
-![img1]()
+Using YJLayerBasedMasking to get circular or rounded corner image is simple, light-weight, without extra cost for blended layer and offscreen-rendering.
+
+Get same results by setting layer.masksToBounds or using YJLayerBasedMasking
+![effect](https://github.com/huang-kun/YJLayerBasedMasking/blob/master/img1.png)
+
+Color blended layers testing (Green color means good, red color means cost)
+![blended layer](https://github.com/huang-kun/YJLayerBasedMasking/blob/master/img2.png)
+
+Color offscreen-rendering testing (Yellow color means cost)
+![offscreen-rendered](https://github.com/huang-kun/YJLayerBasedMasking/blob/master/img3.png)
 
 ## Requirements
 
