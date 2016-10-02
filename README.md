@@ -9,15 +9,17 @@
 
 Using YJLayerBasedMasking to get circular or rounded corner image is simple, light-weight, without extra cost for blended layer and offscreen-rendering.
 
-#### Get same results by setting layer.masksToBounds or using YJLayerBasedMasking
+Here is a demo using a JPEG format image without alpha channel. To display it as circular or rounded corner effect, we can set layer's properties directly or using YJLayerBasedMasking.
+
+#### Get same results by setting layer.masksToBounds (middle row) or using YJLayerBasedMasking (last row)
 
 ![effect](https://github.com/huang-kun/YJLayerBasedMasking/blob/master/img1.png)
 
-#### Color blended layers testing (Green color means good, red color means cost)
+#### Color blended layers testing (Green color means good, red color means layer-blending cost)
 
 ![blended layer](https://github.com/huang-kun/YJLayerBasedMasking/blob/master/img2.png)
 
-#### Color offscreen-rendering testing (Yellow color means cost)
+#### Color offscreen-rendering testing (Yellow color means offscreen-rendering cost)
 
 ![offscreen-rendered](https://github.com/huang-kun/YJLayerBasedMasking/blob/master/img3.png)
 
