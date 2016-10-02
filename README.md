@@ -2,6 +2,7 @@
 
 [![CI Status](http://img.shields.io/travis/huang-kun/YJLayerBasedMasking.svg?style=flat)](https://travis-ci.org/huang-kun/YJLayerBasedMasking)
 [![Version](https://img.shields.io/cocoapods/v/YJLayerBasedMasking.svg?style=flat)](http://cocoapods.org/pods/YJLayerBasedMasking)
+[![Carthage compatible](https://img.shields.io/badge/Carthage-compatible-4BC51D.svg?style=flat)](https://github.com/Carthage/Carthage)
 [![License](https://img.shields.io/cocoapods/l/YJLayerBasedMasking.svg?style=flat)](http://cocoapods.org/pods/YJLayerBasedMasking)
 [![Platform](https://img.shields.io/cocoapods/p/YJLayerBasedMasking.svg?style=flat)](http://cocoapods.org/pods/YJLayerBasedMasking)
 
@@ -62,6 +63,12 @@ it, simply add the following line to your Podfile:
 
 ```ruby
 pod "YJLayerBasedMasking"
+```
+
+For iOS 8+, it also support [Carthage](https://github.com/Carthage/Carthage). To install, add the following line to your Cartfile:
+
+```
+github "huang-kun/YJLayerBasedMasking"
 ```
 
 ## Author
