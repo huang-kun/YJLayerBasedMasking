@@ -15,13 +15,6 @@ Getting circular or rounded corner image to display on UIImageView is easy by us
 
   s.ios.deployment_target = '7.0'
 
-  s.source_files = 'YJLayerBasedMasking/Classes/**/*'
-  
-  # s.resource_bundles = {
-  #   'YJLayerBasedMasking' => ['YJLayerBasedMasking/Assets/*.png']
-  # }
-
-  # s.public_header_files = 'Pod/Classes/**/*.h'
-  # s.frameworks = 'UIKit', 'MapKit'
-  # s.dependency 'AFNetworking', '~> 2.3'
+  s.source_files = 'YJLayerBasedMasking/**/*'
+  s.public_header_files = 'YJLayerBasedMasking/**/*.h'
 end

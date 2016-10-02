@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <Scheme
-   LastUpgradeVersion = "0720"
+   LastUpgradeVersion = "0800"
    version = "1.3">
    <BuildAction
       parallelizeBuildables = "YES"
@@ -14,9 +14,9 @@
             buildForAnalyzing = "YES">
             <BuildableReference
                BuildableIdentifier = "primary"
-               BlueprintIdentifier = "6003F589195388D20070C39A"
-               BuildableName = "YJLayerBasedMasking_Example.app"
-               BlueprintName = "YJLayerBasedMasking_Example"
+               BlueprintIdentifier = "72EFB3901DA135200036EBF6"
+               BuildableName = "YJLayerBasedMasking.framework"
+               BlueprintName = "YJLayerBasedMasking"
                ReferencedContainer = "container:YJLayerBasedMasking.xcodeproj">
             </BuildableReference>
          </BuildActionEntry>
@@ -28,36 +28,7 @@
       selectedLauncherIdentifier = "Xcode.DebuggerFoundation.Launcher.LLDB"
       shouldUseLaunchSchemeArgsEnv = "YES">
       <Testables>
-         <TestableReference
-            skipped = "NO">
-            <BuildableReference
-               BuildableIdentifier = "primary"
-               BlueprintIdentifier = "6003F5AD195388D20070C39A"
-               BuildableName = "YJLayerBasedMasking_Tests.xctest"
-               BlueprintName = "YJLayerBasedMasking_Tests"
-               ReferencedContainer = "container:YJLayerBasedMasking.xcodeproj">
-            </BuildableReference>
-         </TestableReference>
-         <TestableReference
-            skipped = "NO">
-            <BuildableReference
-               BuildableIdentifier = "primary"
-               BlueprintIdentifier = "72EFB3981DA135200036EBF6"
-               BuildableName = "YJLayerBasedMaskingTests.xctest"
-               BlueprintName = "YJLayerBasedMaskingTests"
-               ReferencedContainer = "container:YJLayerBasedMasking.xcodeproj">
-            </BuildableReference>
-         </TestableReference>
       </Testables>
-      <MacroExpansion>
-         <BuildableReference
-            BuildableIdentifier = "primary"
-            BlueprintIdentifier = "6003F589195388D20070C39A"
-            BuildableName = "YJLayerBasedMasking_Example.app"
-            BlueprintName = "YJLayerBasedMasking_Example"
-            ReferencedContainer = "container:YJLayerBasedMasking.xcodeproj">
-         </BuildableReference>
-      </MacroExpansion>
       <AdditionalOptions>
       </AdditionalOptions>
    </TestAction>
@@ -71,16 +42,15 @@
       debugDocumentVersioning = "YES"
       debugServiceExtension = "internal"
       allowLocationSimulation = "YES">
-      <BuildableProductRunnable
-         runnableDebuggingMode = "0">
+      <MacroExpansion>
          <BuildableReference
             BuildableIdentifier = "primary"
-            BlueprintIdentifier = "6003F589195388D20070C39A"
-            BuildableName = "YJLayerBasedMasking_Example.app"
-            BlueprintName = "YJLayerBasedMasking_Example"
+            BlueprintIdentifier = "72EFB3901DA135200036EBF6"
+            BuildableName = "YJLayerBasedMasking.framework"
+            BlueprintName = "YJLayerBasedMasking"
             ReferencedContainer = "container:YJLayerBasedMasking.xcodeproj">
          </BuildableReference>
-      </BuildableProductRunnable>
+      </MacroExpansion>
       <AdditionalOptions>
       </AdditionalOptions>
    </LaunchAction>
@@ -90,16 +60,15 @@
       savedToolIdentifier = ""
       useCustomWorkingDirectory = "NO"
       debugDocumentVersioning = "YES">
-      <BuildableProductRunnable
-         runnableDebuggingMode = "0">
+      <MacroExpansion>
          <BuildableReference
             BuildableIdentifier = "primary"
-            BlueprintIdentifier = "6003F589195388D20070C39A"
-            BuildableName = "YJLayerBasedMasking_Example.app"
-            BlueprintName = "YJLayerBasedMasking_Example"
+            BlueprintIdentifier = "72EFB3901DA135200036EBF6"
+            BuildableName = "YJLayerBasedMasking.framework"
+            BlueprintName = "YJLayerBasedMasking"
             ReferencedContainer = "container:YJLayerBasedMasking.xcodeproj">
          </BuildableReference>
-      </BuildableProductRunnable>
+      </MacroExpansion>
    </ProfileAction>
    <AnalyzeAction
       buildConfiguration = "Debug">

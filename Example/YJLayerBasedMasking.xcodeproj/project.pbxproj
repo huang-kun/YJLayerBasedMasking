@@ -21,6 +21,20 @@
 		6003F5BA195388D20070C39A /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 6003F5B8195388D20070C39A /* InfoPlist.strings */; };
 		6003F5BC195388D20070C39A /* Tests.m in Sources */ = {isa = PBXBuildFile; fileRef = 6003F5BB195388D20070C39A /* Tests.m */; };
 		7214FE4D1D9DFB7C00AFE1A8 /* YJDemoView.m in Sources */ = {isa = PBXBuildFile; fileRef = 7214FE4C1D9DFB7C00AFE1A8 /* YJDemoView.m */; };
+		72EFB3891DA134A40036EBF6 /* CAShapeLayer+YJLayerBasedMasking.m in Sources */ = {isa = PBXBuildFile; fileRef = 72EFB3831DA134A40036EBF6 /* CAShapeLayer+YJLayerBasedMasking.m */; };
+		72EFB38A1DA134A40036EBF6 /* UIBezierPath+YJLayerBasedMasking.m in Sources */ = {isa = PBXBuildFile; fileRef = 72EFB3851DA134A40036EBF6 /* UIBezierPath+YJLayerBasedMasking.m */; };
+		72EFB38B1DA134A40036EBF6 /* UIView+YJLayerBasedMasking.m in Sources */ = {isa = PBXBuildFile; fileRef = 72EFB3871DA134A40036EBF6 /* UIView+YJLayerBasedMasking.m */; };
+		72EFB39A1DA135200036EBF6 /* YJLayerBasedMasking.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 72EFB3911DA135200036EBF6 /* YJLayerBasedMasking.framework */; };
+		72EFB3A11DA135200036EBF6 /* YJLayerBasedMaskingTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 72EFB3A01DA135200036EBF6 /* YJLayerBasedMaskingTests.m */; };
+		72EFB3A61DA135200036EBF6 /* YJLayerBasedMasking.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 72EFB3911DA135200036EBF6 /* YJLayerBasedMasking.framework */; };
+		72EFB3A71DA135200036EBF6 /* YJLayerBasedMasking.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 72EFB3911DA135200036EBF6 /* YJLayerBasedMasking.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		72EFB3B01DA136600036EBF6 /* CAShapeLayer+YJLayerBasedMasking.h in Headers */ = {isa = PBXBuildFile; fileRef = 72EFB3821DA134A40036EBF6 /* CAShapeLayer+YJLayerBasedMasking.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		72EFB3B11DA136600036EBF6 /* UIBezierPath+YJLayerBasedMasking.h in Headers */ = {isa = PBXBuildFile; fileRef = 72EFB3841DA134A40036EBF6 /* UIBezierPath+YJLayerBasedMasking.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		72EFB3B21DA136600036EBF6 /* UIView+YJLayerBasedMasking.h in Headers */ = {isa = PBXBuildFile; fileRef = 72EFB3861DA134A40036EBF6 /* UIView+YJLayerBasedMasking.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		72EFB3B31DA136720036EBF6 /* CAShapeLayer+YJLayerBasedMasking.m in Sources */ = {isa = PBXBuildFile; fileRef = 72EFB3831DA134A40036EBF6 /* CAShapeLayer+YJLayerBasedMasking.m */; };
+		72EFB3B41DA136720036EBF6 /* UIBezierPath+YJLayerBasedMasking.m in Sources */ = {isa = PBXBuildFile; fileRef = 72EFB3851DA134A40036EBF6 /* UIBezierPath+YJLayerBasedMasking.m */; };
+		72EFB3B51DA136720036EBF6 /* UIView+YJLayerBasedMasking.m in Sources */ = {isa = PBXBuildFile; fileRef = 72EFB3871DA134A40036EBF6 /* UIView+YJLayerBasedMasking.m */; };
+		72EFB3C01DA146EC0036EBF6 /* YJLayerBasedMasking.h in Headers */ = {isa = PBXBuildFile; fileRef = 72EFB3881DA134A40036EBF6 /* YJLayerBasedMasking.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		8119652FC4E927DBA1A9A404 /* Pods_YJLayerBasedMasking_Example.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7374432CAD9DC4FD1F346BB4 /* Pods_YJLayerBasedMasking_Example.framework */; };
 		873B8AEB1B1F5CCA007FD442 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 873B8AEA1B1F5CCA007FD442 /* Main.storyboard */; };
 		8E5CA20085DA9E1419F5497B /* Pods_YJLayerBasedMasking_Tests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8022E162FBDE875897719E5F /* Pods_YJLayerBasedMasking_Tests.framework */; };
@@ -34,7 +48,42 @@
 			remoteGlobalIDString = 6003F589195388D20070C39A;
 			remoteInfo = YJLayerBasedMasking;
 		};
+		72EFB39B1DA135200036EBF6 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 6003F582195388D10070C39A /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 72EFB3901DA135200036EBF6;
+			remoteInfo = YJLayerBasedMasking;
+		};
+		72EFB39D1DA135200036EBF6 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 6003F582195388D10070C39A /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 6003F589195388D20070C39A;
+			remoteInfo = YJLayerBasedMasking_Example;
+		};
+		72EFB3A41DA135200036EBF6 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 6003F582195388D10070C39A /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 72EFB3901DA135200036EBF6;
+			remoteInfo = YJLayerBasedMasking;
+		};
 /* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		72EFB3AB1DA135200036EBF6 /* Embed Frameworks */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 10;
+			files = (
+				72EFB3A71DA135200036EBF6 /* YJLayerBasedMasking.framework in Embed Frameworks */,
+			);
+			name = "Embed Frameworks";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
 		1BAAC7D3377676879E2FAF10 /* Pods-YJLayerBasedMasking_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-YJLayerBasedMasking_Example.release.xcconfig"; path = "Pods/Target Support Files/Pods-YJLayerBasedMasking_Example/Pods-YJLayerBasedMasking_Example.release.xcconfig"; sourceTree = "<group>"; };
@@ -62,6 +111,18 @@
 		6F093FBAC6CF40953E561C44 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
 		7214FE4B1D9DFB7C00AFE1A8 /* YJDemoView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YJDemoView.h; sourceTree = "<group>"; };
 		7214FE4C1D9DFB7C00AFE1A8 /* YJDemoView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YJDemoView.m; sourceTree = "<group>"; };
+		72EFB3821DA134A40036EBF6 /* CAShapeLayer+YJLayerBasedMasking.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "CAShapeLayer+YJLayerBasedMasking.h"; sourceTree = "<group>"; };
+		72EFB3831DA134A40036EBF6 /* CAShapeLayer+YJLayerBasedMasking.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "CAShapeLayer+YJLayerBasedMasking.m"; sourceTree = "<group>"; };
+		72EFB3841DA134A40036EBF6 /* UIBezierPath+YJLayerBasedMasking.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIBezierPath+YJLayerBasedMasking.h"; sourceTree = "<group>"; };
+		72EFB3851DA134A40036EBF6 /* UIBezierPath+YJLayerBasedMasking.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIBezierPath+YJLayerBasedMasking.m"; sourceTree = "<group>"; };
+		72EFB3861DA134A40036EBF6 /* UIView+YJLayerBasedMasking.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+YJLayerBasedMasking.h"; sourceTree = "<group>"; };
+		72EFB3871DA134A40036EBF6 /* UIView+YJLayerBasedMasking.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+YJLayerBasedMasking.m"; sourceTree = "<group>"; };
+		72EFB3881DA134A40036EBF6 /* YJLayerBasedMasking.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YJLayerBasedMasking.h; sourceTree = "<group>"; };
+		72EFB3911DA135200036EBF6 /* YJLayerBasedMasking.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = YJLayerBasedMasking.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		72EFB3941DA135200036EBF6 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		72EFB3991DA135200036EBF6 /* YJLayerBasedMaskingTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = YJLayerBasedMaskingTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		72EFB3A01DA135200036EBF6 /* YJLayerBasedMaskingTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = YJLayerBasedMaskingTests.m; sourceTree = "<group>"; };
+		72EFB3A21DA135200036EBF6 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		7374432CAD9DC4FD1F346BB4 /* Pods_YJLayerBasedMasking_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_YJLayerBasedMasking_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		8022E162FBDE875897719E5F /* Pods_YJLayerBasedMasking_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_YJLayerBasedMasking_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		873B8AEA1B1F5CCA007FD442 /* Main.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Main.storyboard; sourceTree = "<group>"; };
@@ -76,6 +137,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				6003F590195388D20070C39A /* CoreGraphics.framework in Frameworks */,
+				72EFB3A61DA135200036EBF6 /* YJLayerBasedMasking.framework in Frameworks */,
 				6003F592195388D20070C39A /* UIKit.framework in Frameworks */,
 				6003F58E195388D20070C39A /* Foundation.framework in Frameworks */,
 				8119652FC4E927DBA1A9A404 /* Pods_YJLayerBasedMasking_Example.framework in Frameworks */,
@@ -93,15 +155,33 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		72EFB38D1DA135200036EBF6 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		72EFB3961DA135200036EBF6 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				72EFB39A1DA135200036EBF6 /* YJLayerBasedMasking.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
 		6003F581195388D10070C39A = {
 			isa = PBXGroup;
 			children = (
+				72EFB3811DA134A40036EBF6 /* YJLayerBasedMasking */,
 				60FF7A9C1954A5C5007DD14C /* Podspec Metadata */,
 				6003F593195388D20070C39A /* Example for YJLayerBasedMasking */,
 				6003F5B5195388D20070C39A /* Tests */,
+				72EFB3921DA135200036EBF6 /* YJLayerBasedMasking */,
+				72EFB39F1DA135200036EBF6 /* YJLayerBasedMaskingTests */,
 				6003F58C195388D20070C39A /* Frameworks */,
 				6003F58B195388D20070C39A /* Products */,
 				DCD77C379A8D761F7B5958F1 /* Pods */,
@@ -113,6 +193,8 @@
 			children = (
 				6003F58A195388D20070C39A /* YJLayerBasedMasking_Example.app */,
 				6003F5AE195388D20070C39A /* YJLayerBasedMasking_Tests.xctest */,
+				72EFB3911DA135200036EBF6 /* YJLayerBasedMasking.framework */,
+				72EFB3991DA135200036EBF6 /* YJLayerBasedMaskingTests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -187,6 +269,38 @@
 			name = "Podspec Metadata";
 			sourceTree = "<group>";
 		};
+		72EFB3811DA134A40036EBF6 /* YJLayerBasedMasking */ = {
+			isa = PBXGroup;
+			children = (
+				72EFB3881DA134A40036EBF6 /* YJLayerBasedMasking.h */,
+				72EFB3821DA134A40036EBF6 /* CAShapeLayer+YJLayerBasedMasking.h */,
+				72EFB3831DA134A40036EBF6 /* CAShapeLayer+YJLayerBasedMasking.m */,
+				72EFB3841DA134A40036EBF6 /* UIBezierPath+YJLayerBasedMasking.h */,
+				72EFB3851DA134A40036EBF6 /* UIBezierPath+YJLayerBasedMasking.m */,
+				72EFB3861DA134A40036EBF6 /* UIView+YJLayerBasedMasking.h */,
+				72EFB3871DA134A40036EBF6 /* UIView+YJLayerBasedMasking.m */,
+			);
+			name = YJLayerBasedMasking;
+			path = ../YJLayerBasedMasking;
+			sourceTree = "<group>";
+		};
+		72EFB3921DA135200036EBF6 /* YJLayerBasedMasking */ = {
+			isa = PBXGroup;
+			children = (
+				72EFB3941DA135200036EBF6 /* Info.plist */,
+			);
+			path = YJLayerBasedMasking;
+			sourceTree = "<group>";
+		};
+		72EFB39F1DA135200036EBF6 /* YJLayerBasedMaskingTests */ = {
+			isa = PBXGroup;
+			children = (
+				72EFB3A01DA135200036EBF6 /* YJLayerBasedMaskingTests.m */,
+				72EFB3A21DA135200036EBF6 /* Info.plist */,
+			);
+			path = YJLayerBasedMaskingTests;
+			sourceTree = "<group>";
+		};
 		DCD77C379A8D761F7B5958F1 /* Pods */ = {
 			isa = PBXGroup;
 			children = (
@@ -200,6 +314,20 @@
 		};
 /* End PBXGroup section */
 
+/* Begin PBXHeadersBuildPhase section */
+		72EFB38E1DA135200036EBF6 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				72EFB3B01DA136600036EBF6 /* CAShapeLayer+YJLayerBasedMasking.h in Headers */,
+				72EFB3B11DA136600036EBF6 /* UIBezierPath+YJLayerBasedMasking.h in Headers */,
+				72EFB3B21DA136600036EBF6 /* UIView+YJLayerBasedMasking.h in Headers */,
+				72EFB3C01DA146EC0036EBF6 /* YJLayerBasedMasking.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
 /* Begin PBXNativeTarget section */
 		6003F589195388D20070C39A /* YJLayerBasedMasking_Example */ = {
 			isa = PBXNativeTarget;
@@ -211,10 +339,12 @@
 				6003F588195388D20070C39A /* Resources */,
 				ECF9AA1F716343D87AE9FB5D /* [CP] Embed Pods Frameworks */,
 				9D5361A0BBAEEAA67B43827C /* [CP] Copy Pods Resources */,
+				72EFB3AB1DA135200036EBF6 /* Embed Frameworks */,
 			);
 			buildRules = (
 			);
 			dependencies = (
+				72EFB3A51DA135200036EBF6 /* PBXTargetDependency */,
 			);
 			name = YJLayerBasedMasking_Example;
 			productName = YJLayerBasedMasking;
@@ -242,6 +372,43 @@
 			productReference = 6003F5AE195388D20070C39A /* YJLayerBasedMasking_Tests.xctest */;
 			productType = "com.apple.product-type.bundle.unit-test";
 		};
+		72EFB3901DA135200036EBF6 /* YJLayerBasedMasking */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 72EFB3A81DA135200036EBF6 /* Build configuration list for PBXNativeTarget "YJLayerBasedMasking" */;
+			buildPhases = (
+				72EFB38C1DA135200036EBF6 /* Sources */,
+				72EFB38D1DA135200036EBF6 /* Frameworks */,
+				72EFB38E1DA135200036EBF6 /* Headers */,
+				72EFB38F1DA135200036EBF6 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = YJLayerBasedMasking;
+			productName = YJLayerBasedMasking;
+			productReference = 72EFB3911DA135200036EBF6 /* YJLayerBasedMasking.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		72EFB3981DA135200036EBF6 /* YJLayerBasedMaskingTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 72EFB3AC1DA135200036EBF6 /* Build configuration list for PBXNativeTarget "YJLayerBasedMaskingTests" */;
+			buildPhases = (
+				72EFB3951DA135200036EBF6 /* Sources */,
+				72EFB3961DA135200036EBF6 /* Frameworks */,
+				72EFB3971DA135200036EBF6 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				72EFB39C1DA135200036EBF6 /* PBXTargetDependency */,
+				72EFB39E1DA135200036EBF6 /* PBXTargetDependency */,
+			);
+			name = YJLayerBasedMaskingTests;
+			productName = YJLayerBasedMaskingTests;
+			productReference = 72EFB3991DA135200036EBF6 /* YJLayerBasedMaskingTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
@@ -256,6 +423,17 @@
 						DevelopmentTeam = CD76TM5QAC;
 					};
 					6003F5AD195388D20070C39A = {
+						TestTargetID = 6003F589195388D20070C39A;
+					};
+					72EFB3901DA135200036EBF6 = {
+						CreatedOnToolsVersion = 8.0;
+						DevelopmentTeam = CD76TM5QAC;
+						ProvisioningStyle = Automatic;
+					};
+					72EFB3981DA135200036EBF6 = {
+						CreatedOnToolsVersion = 8.0;
+						DevelopmentTeam = CD76TM5QAC;
+						ProvisioningStyle = Automatic;
 						TestTargetID = 6003F589195388D20070C39A;
 					};
 				};
@@ -275,6 +453,8 @@
 			targets = (
 				6003F589195388D20070C39A /* YJLayerBasedMasking_Example */,
 				6003F5AD195388D20070C39A /* YJLayerBasedMasking_Tests */,
+				72EFB3901DA135200036EBF6 /* YJLayerBasedMasking */,
+				72EFB3981DA135200036EBF6 /* YJLayerBasedMaskingTests */,
 			);
 		};
 /* End PBXProject section */
@@ -295,6 +475,20 @@
 			buildActionMask = 2147483647;
 			files = (
 				6003F5BA195388D20070C39A /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		72EFB38F1DA135200036EBF6 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		72EFB3971DA135200036EBF6 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -399,9 +593,12 @@
 			buildActionMask = 2147483647;
 			files = (
 				6003F59E195388D20070C39A /* YJAppDelegate.m in Sources */,
+				72EFB38B1DA134A40036EBF6 /* UIView+YJLayerBasedMasking.m in Sources */,
+				72EFB3891DA134A40036EBF6 /* CAShapeLayer+YJLayerBasedMasking.m in Sources */,
 				6003F5A7195388D20070C39A /* YJViewController.m in Sources */,
 				7214FE4D1D9DFB7C00AFE1A8 /* YJDemoView.m in Sources */,
 				6003F59A195388D20070C39A /* main.m in Sources */,
+				72EFB38A1DA134A40036EBF6 /* UIBezierPath+YJLayerBasedMasking.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -413,6 +610,24 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		72EFB38C1DA135200036EBF6 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				72EFB3B31DA136720036EBF6 /* CAShapeLayer+YJLayerBasedMasking.m in Sources */,
+				72EFB3B41DA136720036EBF6 /* UIBezierPath+YJLayerBasedMasking.m in Sources */,
+				72EFB3B51DA136720036EBF6 /* UIView+YJLayerBasedMasking.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		72EFB3951DA135200036EBF6 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				72EFB3A11DA135200036EBF6 /* YJLayerBasedMaskingTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
@@ -420,6 +635,21 @@
 			isa = PBXTargetDependency;
 			target = 6003F589195388D20070C39A /* YJLayerBasedMasking_Example */;
 			targetProxy = 6003F5B3195388D20070C39A /* PBXContainerItemProxy */;
+		};
+		72EFB39C1DA135200036EBF6 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 72EFB3901DA135200036EBF6 /* YJLayerBasedMasking */;
+			targetProxy = 72EFB39B1DA135200036EBF6 /* PBXContainerItemProxy */;
+		};
+		72EFB39E1DA135200036EBF6 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 6003F589195388D20070C39A /* YJLayerBasedMasking_Example */;
+			targetProxy = 72EFB39D1DA135200036EBF6 /* PBXContainerItemProxy */;
+		};
+		72EFB3A51DA135200036EBF6 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 72EFB3901DA135200036EBF6 /* YJLayerBasedMasking */;
+			targetProxy = 72EFB3A41DA135200036EBF6 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
 
@@ -528,6 +758,7 @@
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "YJLayerBasedMasking/YJLayerBasedMasking-Prefix.pch";
 				INFOPLIST_FILE = "YJLayerBasedMasking/YJLayerBasedMasking-Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				MODULE_NAME = ExampleApp;
 				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.demo.${PRODUCT_NAME:rfc1034identifier}";
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -545,6 +776,7 @@
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "YJLayerBasedMasking/YJLayerBasedMasking-Prefix.pch";
 				INFOPLIST_FILE = "YJLayerBasedMasking/YJLayerBasedMasking-Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				MODULE_NAME = ExampleApp;
 				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.demo.${PRODUCT_NAME:rfc1034identifier}";
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -596,6 +828,116 @@
 			};
 			name = Release;
 		};
+		72EFB3A91DA135200036EBF6 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_SUSPICIOUS_MOVES = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CODE_SIGN_IDENTITY = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEFINES_MODULE = YES;
+				DEVELOPMENT_TEAM = CD76TM5QAC;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				INFOPLIST_FILE = YJLayerBasedMasking/Info.plist;
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MTL_ENABLE_DEBUG_INFO = YES;
+				OTHER_LDFLAGS = "-all_load";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.huang-kun.YJLayerBasedMasking";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		72EFB3AA1DA135200036EBF6 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_SUSPICIOUS_MOVES = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CODE_SIGN_IDENTITY = "";
+				COPY_PHASE_STRIP = NO;
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEFINES_MODULE = YES;
+				DEVELOPMENT_TEAM = CD76TM5QAC;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				INFOPLIST_FILE = YJLayerBasedMasking/Info.plist;
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				OTHER_LDFLAGS = "-all_load";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.huang-kun.YJLayerBasedMasking";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		72EFB3AD1DA135200036EBF6 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_SUSPICIOUS_MOVES = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEVELOPMENT_TEAM = CD76TM5QAC;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				INFOPLIST_FILE = YJLayerBasedMaskingTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MTL_ENABLE_DEBUG_INFO = YES;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.huang-kun.YJLayerBasedMaskingTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/YJLayerBasedMasking_Example.app/YJLayerBasedMasking_Example";
+			};
+			name = Debug;
+		};
+		72EFB3AE1DA135200036EBF6 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_SUSPICIOUS_MOVES = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEVELOPMENT_TEAM = CD76TM5QAC;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				INFOPLIST_FILE = YJLayerBasedMaskingTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.huang-kun.YJLayerBasedMaskingTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/YJLayerBasedMasking_Example.app/YJLayerBasedMasking_Example";
+			};
+			name = Release;
+		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
@@ -625,6 +967,22 @@
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
+		};
+		72EFB3A81DA135200036EBF6 /* Build configuration list for PBXNativeTarget "YJLayerBasedMasking" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				72EFB3A91DA135200036EBF6 /* Debug */,
+				72EFB3AA1DA135200036EBF6 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		72EFB3AC1DA135200036EBF6 /* Build configuration list for PBXNativeTarget "YJLayerBasedMaskingTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				72EFB3AD1DA135200036EBF6 /* Debug */,
+				72EFB3AE1DA135200036EBF6 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
 		};
 /* End XCConfigurationList section */
 	};
