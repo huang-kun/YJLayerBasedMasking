@@ -5,11 +5,13 @@
 [![License](https://img.shields.io/cocoapods/l/YJLayerBasedMasking.svg?style=flat)](http://cocoapods.org/pods/YJLayerBasedMasking)
 [![Platform](https://img.shields.io/cocoapods/p/YJLayerBasedMasking.svg?style=flat)](http://cocoapods.org/pods/YJLayerBasedMasking)
 
-## Example
+## Why layer based masking ?
 
-To run the example project, clone the repo, and run `pod install` from the Example directory first.
+![img1]()
 
 ## Requirements
+
+iOS 7+
 
 ## Installation
 
@@ -27,3 +29,5 @@ huang-kun, jack-huang-developer@foxmail.com
 ## License
 
 YJLayerBasedMasking is available under the MIT license. See the LICENSE file for more info.
+
+

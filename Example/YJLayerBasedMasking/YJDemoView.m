@@ -30,10 +30,10 @@
     CGFloat borderWidth = 1.0;
     UIColor *borderColor = UIColor.orangeColor;
     
-    // Image without alpha channel
     /*
-     To check the alpha channel of an image, you can select the image in Finder, 
-     press COMMAND + I, See the information:
+     
+     Get an image without alpha channel. To check the alpha channel of an image, 
+     you can select the image in Finder, press COMMAND + I, See the information:
      
      More Info:
      
